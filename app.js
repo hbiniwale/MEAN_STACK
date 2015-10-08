@@ -13,6 +13,7 @@ var barcoApp = angular.module('barcoApp',['ngRoute','angularTreeview'])
 
             $routeProvider.otherwise({
                 redirectTo: '/Hospitals'
+				//l
             });
     }])
     .run(function ($rootScope) {
